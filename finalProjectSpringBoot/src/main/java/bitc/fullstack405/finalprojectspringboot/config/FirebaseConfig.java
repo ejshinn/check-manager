@@ -17,7 +17,7 @@ public class FirebaseConfig {
     // FirebaseApp이 이미 초기화되어 있는지 확인
     if (FirebaseApp.getApps().isEmpty()) {
       try {
-        FileInputStream serviceAccount = new FileInputStream("src/main/bitcfinalprojectkotlin-firebase-adminsdk-p8s27-ddddcaf3aa.json");
+        FileInputStream serviceAccount = new FileInputStream("src/main/bitcfinalprojectkotlin-ea941-firebase-adminsdk-q9uf2-af02f07a78.json");
         FirebaseOptions options = new FirebaseOptions.Builder()
             .setCredentials(GoogleCredentials.fromStream(serviceAccount))
             .build();
