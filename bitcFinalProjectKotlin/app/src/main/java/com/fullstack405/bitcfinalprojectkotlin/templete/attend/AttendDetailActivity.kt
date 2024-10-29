@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
+import com.fullstack405.bitcfinalprojectkotlin.BuildConfig
 import com.fullstack405.bitcfinalprojectkotlin.R
 import com.fullstack405.bitcfinalprojectkotlin.client.Client
 import com.fullstack405.bitcfinalprojectkotlin.data.AppDetailData
@@ -32,7 +33,7 @@ class AttendDetailActivity : AppCompatActivity() {
     private var userName = "none"
     lateinit var intentComplete: Intent
 
-    val url = "http://10.100.105.168:8080/eventImg/"
+    val url = "${BuildConfig.BASE_URL}/eventImg/"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

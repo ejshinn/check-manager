@@ -10,6 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import com.bumptech.glide.Glide
+import com.fullstack405.bitcfinalprojectkotlin.BuildConfig
 import com.fullstack405.bitcfinalprojectkotlin.R
 import com.fullstack405.bitcfinalprojectkotlin.client.Client
 import com.fullstack405.bitcfinalprojectkotlin.databinding.ActivityQrViewBinding
@@ -35,7 +36,7 @@ class QrViewActivity : AppCompatActivity() {
     val cal_sdate = Calendar.getInstance() // 시작일
     var td = "null"
 
-    var url="http://10.100.105.168:8080/qrImg/"
+    var url="${BuildConfig.BASE_URL}/qrImg/"
 
     val dateFormat =SimpleDateFormat("yyyy-MM-dd") // 포맷설정
 
