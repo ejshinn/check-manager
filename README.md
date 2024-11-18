@@ -35,6 +35,8 @@
 ## 🙋 담당 영역
 - **ERD 설계**
 - **JPA 구축**
-- **스프링 부트를 활용한 안드로이드 백엔드 통신 개발 (일반 회원 및 관리자 기능)**
+- **Spring Boot를 활용한 Android와의 REST API 기반 Back-End 개발 (일반 회원 및 관리자 기능)**
 
 ## ▶️ 시연 영상
+https://github.com/user-attachments/assets/8c363c04-1b47-43ef-9746-39322478d8f0
+
